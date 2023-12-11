@@ -14,7 +14,7 @@
 .nav {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #2b2b2b;
     color: #fff;
@@ -22,12 +22,13 @@
 }
 
 .logo {
-    width: 50%;
+    width: 30%;
 }
 
 .logo ul svg {
     width: 150px;
     color: #fff;
+    background-color: #fff;
 
 }
 
@@ -45,19 +46,22 @@
 }
 
 .end {
-    width: 50%;
+    width: 40%;
 }
 
 .end ul {
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
 }
 
 .input {
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,4 +90,122 @@
     border: 1px solid #09757A;
     border-radius: 0%;
     font-size: 15px;
+}
+
+.contentwrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 3rem;
+    position: relative;
+
+}
+
+.rightcontent {
+    width: 70%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.imgwrapper {
+    height: 1000px;
+    position: relative;
+}
+
+.imgwrapper img {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.textwrapper {
+    position: absolute;
+    top: 1px;
+    padding: 40px;
+}
+
+
+.textwrapper h6 {
+    font-size: 15px;
+}
+
+.textwrapper h1 {
+    margin: 20px 0;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+
+}
+
+.textwrapper p {
+    font-size: 16px;
+    color: #000;
+    margin: 20px 0;
+    line-height: 1.5;
+
+}
+
+#findyours {
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.leftcontent {
+    width: 30%;
+}
+
+.leftbox {
+    width: 255px;
+    height: 440px;
+    background-color: #FDE9DB;
+    padding: 2rem 3rem;
+    border-radius: 4px;
+}
+
+.sectextwrapper h6 {
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.sectextwrapper h4 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.sectextwrapper button {
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sectextwrapper span {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sectextwrapper span:hover {
+    border-bottom: 1px solid black;
+}
+
+.sectextwrapper p {
+    font-size: 12px;
+    margin: 20px 0;
 }
