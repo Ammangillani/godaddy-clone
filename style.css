@@ -298,7 +298,26 @@ figcaption button {
     margin-top: 30px;
     font-weight: 600;
     cursor: pointer;
+    position: relative;
 }
+
+.button #arrowicon {
+    display: none;
+    position: absolute;
+    bottom: 14px;
+    right: 4px;
+
+}
+
+.button:hover #arrowicon {
+
+    display: block;
+}
+
+.button:hover {
+    scale: 1.1;
+}
+
 
 .testimonials {
     width: 100%;
@@ -307,7 +326,7 @@ figcaption button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 4rem;
+    margin-top: 10rem;
 
 }
 
@@ -345,8 +364,13 @@ figcaption button {
     margin-bottom: 15px;
 }
 
-.commentbox span {
+.commentbox span i {
     margin: 10px 0;
+    background-color: #00b67b;
+    color: #FDE9DB;
+    padding: 4px;
+    font-size: 12px;
+
 }
 
 .commentbox p {
@@ -360,4 +384,37 @@ figcaption button {
     font-size: 15px;
     position: absolute;
     bottom: 10px;
+}
+
+#regular {
+    background-color: #DCDCE6;
+}
+
+.testimonialsrating {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    margin-left: 70px;
+}
+
+.testimonialsrating h2 {
+    font-size: 28px;
+
+}
+
+.testimonialsrating span i {
+    margin: 10px 0;
+    background-color: #00b67b;
+    color: #FDE9DB;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.testimonialsrating p {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 700;
 }
