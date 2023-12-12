@@ -93,6 +93,7 @@
 }
 
 .contentwrapper {
+    height: 550px;
     display: flex;
     justify-content: space-around;
     padding: 0rem 3rem;
@@ -157,6 +158,10 @@
     font-weight: 500;
 }
 
+#findyours:hover {
+    scale: 1.1;
+}
+
 .leftcontent {
     width: 30%;
 }
@@ -195,17 +200,164 @@
     cursor: pointer;
 }
 
+.sectextwrapper button:hover {
+    scale: 1.1;
+}
+
 .sectextwrapper span {
     font-size: 14px;
-    cursor: pointer;
     font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 .sectextwrapper span:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .sectextwrapper p {
     font-size: 12px;
     margin: 20px 0;
+}
+
+.heroheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+}
+
+.heroheading h1 {
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.heroheading p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.herocards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 2rem 0;
+}
+
+.leftcard {
+    width: 40%;
+}
+
+.rightcard {
+    width: 40%;
+}
+
+.leftcard img {
+    width: 100%;
+}
+
+.rightcard img {
+    width: 100%;
+}
+
+figcaption h2 {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px 0;
+
+}
+
+figcaption p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 12px 0;
+}
+
+figcaption span {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+figcaption h6 {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+figcaption button {
+    padding: 10px 26px;
+    text-align: center;
+    font-size: 15px;
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.testimonials {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+
+}
+
+.headingwrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 4rem;
+    font-size: 20px;
+}
+
+.testinomialswrapper {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 3rem;
+
+}
+
+
+.commentbox {
+    width: 320px;
+    height: 400px;
+    background: #E8EAEB;
+    border-radius: 5px;
+    padding: 2rem;
+    position: relative;
+}
+
+.commentbox h6 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.commentbox span {
+    margin: 10px 0;
+}
+
+.commentbox p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+
+}
+
+.commentbox h5 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
 }
