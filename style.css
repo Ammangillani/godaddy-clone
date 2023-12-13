@@ -581,7 +581,7 @@ figcaption button {
 
 .ican {
     padding: 10px;
-    background-color: #000;
+    background-color: #111111;
     text-align: center;
     color: #00b67b;
     /* margin-bottom: 0.1em; */
@@ -596,8 +596,8 @@ figcaption button {
 /* --------------------------------------footer------------------------------------------------ */
 
 footer {
-    background: #000;
-    height: 100%;
+    background: #111111;
+    /* height: 100%; */
 }
 
 .footercontainer {
@@ -656,6 +656,7 @@ footer {
 
 .footersvg svg {
     width: 180px;
+    cursor: pointer;
 }
 
 .footericon {
@@ -667,4 +668,37 @@ footer {
 
 .footericon span {
     cursor: pointer;
+}
+
+.footerendwrapper {
+    color: #fff;
+    position: relative;
+    padding: 2rem 3rem;
+}
+
+.wrappercontent p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.wrapperparacontent {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+
+}
+
+.wrapperparacontent span {
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wrapperparacontent span:hover {
+    text-decoration: underline #fff;
 }
