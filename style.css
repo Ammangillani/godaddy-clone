@@ -26,6 +26,9 @@
 
 .logo ul svg {
     width: 8.933rem;
+    margin-left: 1.5rem;
+    height: 30px;
+    margin-top: 4px;
 
 }
 
@@ -38,7 +41,6 @@
     align-items: center;
     justify-content: baseline;
     list-style: none;
-    gap: 10px;
 
 }
 
